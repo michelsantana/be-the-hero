@@ -1,0 +1,31 @@
+
+/*
+ * Rotas / Recursos
+ * app.get('/users' <- recurso
+ * GET: Buscar uma informação
+ * POST: Criar uma informação
+ * PUT: Alterar uma informação
+ * DELETE: Deletar uma informação
+ * npm install nodemon -D (salva uma dependencia para DESENVOLVIMENTO)
+ */
+
+routes.get('/test/:id', (request, response) => {
+  var query = request.query; //Querystring
+  var params = request.params; //ParametroUrl (:id)
+  var body = request.body; // Dados do corpo/form
+
+  return response.json({
+    evento: 'Semana Omnistack',
+    aluno: 'Michel Sampaio',
+    query: query,
+    params: params,
+    body: body
+  });
+});
+
+routes.get('/', (request, response) => {
+  return response.json({
+    evento: 'Semana Omnistack',
+    aluno: 'Michel Sampaio'
+  });
+});
