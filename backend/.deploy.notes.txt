@@ -1,0 +1,42 @@
+BACKEND
+deploy app NODE experimental/testar
+    - HEROKU.COM
+        - Gerencia infra, pode ser caro.
+        - Plano gratuito simples.
+
+deploy app comercial
+    - digitalocean
+        - precificação simples
+        - funciona bem, o de $ 5 dol/mes
+
+deploy app gigantesca
+    - "contratar devops"
+    - AWS, GOOGLE CLOUD, MS AZURE
+
+---------------------------------------------
+FRONTEND
+deploy app frontend
+    - netlify
+        - específico para frontend
+        - integração com github
+
+---------------------------------------------
+MOBILE
+deploy mobile
+    - gerar apk pelo expo (pesquisar)
+    - apple e google - tem que pagar para ter conta de dev.
+
+---------------------------------------------
+Estudos
+    - Padrão de código: ESlint, prettier
+    - Autenticação JWT
+    - Styled Components
+
+Dicas
+    - Github
+    - Linkedin
+
+---------------------------------------------
+
+BOOTCAMP 
+6 semanas
