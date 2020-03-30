@@ -40,3 +40,52 @@ Dicas
 
 BOOTCAMP 
 6 semanas
+
+---------------------------------------------
+
+uteis:
+    npm install --global expo-cli
+        instalar expo para desenvolver app mobile
+    expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+        dependencias para desenvolvimento mobile no expo com react
+    npm install @react-navigation/native
+        navegação mobile com rotas
+    npm install @react-navigation/stack
+        navegação mobile com rotas - (parecido com useHistory do web)
+    npm install intl 
+        internacionalização de dados do JS
+    npm install axios
+        conectar com api's
+    expo install expo-mail-composer
+        criar emails no expo
+    expo install expo-constants
+        variáveis com valores do sistema do celular exemplo: tamanho da statusbar
+    npm install react-router-dom
+        desenvolvimento react com rotas web
+    npm install react-icons
+        pacote de icones do react
+    npm install cors
+        aplicar cors no node
+    npm install knex
+        ORM do nodejs
+        npx knex migrate:lastest -- atualizar todas as migrations
+        npx knex migrations:rollback 
+    npm install sqlite3    
+
+validação:
+    npm install celebrate
+        esse framework usa o HAPPI/JOI
+
+Testes:
+    npm install jest -D 
+    npx jest --init
+        iniciar configuração do jest
+    npm install supertest -D 
+    npm install cross-env
+        modificar banco de dados para o de teste
+    file.spec.js
+    npm test
+
+Expo: 
+    npm install yarn
+    yarn start
